@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,SAAS,CAAC;EACN,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,KAAK;CAChB",
+    "sources": [
+        "side-navbar.component.scss"
+    ],
+    "names": [],
+    "file": "side-navbar.component.css"
+}

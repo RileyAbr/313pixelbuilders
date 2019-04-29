@@ -1,7 +1,7 @@
 @import '../../variables';
 
 $push-color: hsla(10, 90%, 40%, 1);
-$push-size: 120px;
+$push-size: 100px;
 
 
 .side-nav {
@@ -18,9 +18,25 @@ $push-size: 120px;
     align-items: center;
 }
 
+.side-li > a {
+    display: flex;
+    align-items: center;
+    
+    color: $outrun-neon-blue;
+}
+
+.side-li > a:hover, .side-li > a:focus {
+    color: darken($outrun-neon-blue, 20%);
+}
+
+
 .logo {
     margin: 0 auto;
     padding-left: 0;
+}
+
+.logo:hover, .logo:active, .logo:focus {
+    opacity: 0.85;
 }
 
 .nav-arcade-button {
@@ -88,13 +104,13 @@ $push-size: 120px;
 }
 
 .side-link {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
 }
 
 .active {
-    color: $outrun-neon-pink;
+    color: $outrun-neon-pink !important;
 }
 
-.active:focus, .active:hover, .active:active {
-    color: darken($outrun-neon-pink, 10%);
+.active:hover, .active:focus{
+    color: darken($outrun-neon-pink, 10%) !important;
 }

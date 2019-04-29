@@ -21,16 +21,34 @@
           align-items: center;
 }
 
+.side-li > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #2de2e6;
+}
+
+.side-li > a:hover, .side-li > a:focus {
+  color: #12989b;
+}
+
 .logo {
   margin: 0 auto;
   padding-left: 0;
 }
 
+.logo:hover, .logo:active, .logo:focus {
+  opacity: 0.85;
+}
+
 .nav-arcade-button {
   position: relative;
   display: inline-block;
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   border: 0;
   margin: 1em;
   outline: none;
@@ -41,45 +59,45 @@
   transition: -webkit-box-shadow 200ms;
   transition: box-shadow 200ms;
   transition: box-shadow 200ms, -webkit-box-shadow 200ms;
-  -webkit-box-shadow: inset 0 3.75px 0 #da2e0b, inset 0 -3.75px 0 #aa2409, inset 0 0 0 3.75px #b32609, inset 0 0 0 10px #c2290a, inset 0 0 0 12px #611405, inset 0 0 0 13.04348px black, inset 0 0 0 16px rgba(247, 133, 110, 0.7), inset 0 0 0 21.81818px #c2290a, inset 0 48px 16px #aa2409, inset 0 0 12px 20px #911f08, 0 6px 0 rgba(0, 0, 0, 0.3);
-          box-shadow: inset 0 3.75px 0 #da2e0b, inset 0 -3.75px 0 #aa2409, inset 0 0 0 3.75px #b32609, inset 0 0 0 10px #c2290a, inset 0 0 0 12px #611405, inset 0 0 0 13.04348px black, inset 0 0 0 16px rgba(247, 133, 110, 0.7), inset 0 0 0 21.81818px #c2290a, inset 0 48px 16px #aa2409, inset 0 0 12px 20px #911f08, 0 6px 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 3.125px 0 #da2e0b, inset 0 -3.125px 0 #aa2409, inset 0 0 0 3.125px #b32609, inset 0 0 0 8.33333px #c2290a, inset 0 0 0 10px #611405, inset 0 0 0 10.86957px black, inset 0 0 0 13.33333px rgba(247, 133, 110, 0.7), inset 0 0 0 18.18182px #c2290a, inset 0 40px 13.33333px #aa2409, inset 0 0 10px 16.66667px #911f08, 0 5px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 3.125px 0 #da2e0b, inset 0 -3.125px 0 #aa2409, inset 0 0 0 3.125px #b32609, inset 0 0 0 8.33333px #c2290a, inset 0 0 0 10px #611405, inset 0 0 0 10.86957px black, inset 0 0 0 13.33333px rgba(247, 133, 110, 0.7), inset 0 0 0 18.18182px #c2290a, inset 0 40px 13.33333px #aa2409, inset 0 0 10px 16.66667px #911f08, 0 5px 0 rgba(0, 0, 0, 0.3);
 }
 
 .nav-arcade-button:after {
   content: '';
   position: absolute;
-  bottom: 6px;
-  left: 12px;
+  bottom: 5px;
+  left: 10px;
   display: block;
-  width: 96px;
-  height: 96px;
-  border: 8px solid rgba(0, 0, 0, 0.3);
-  border-width: 0 0 8px;
+  width: 80px;
+  height: 80px;
+  border: 6.66667px solid rgba(0, 0, 0, 0.3);
+  border-width: 0 0 6.66667px;
   border-radius: 50%;
   -webkit-transition-duration: 200ms;
           transition-duration: 200ms;
 }
 
 .nav-arcade-button:active, .nav-arcade-button.is-pushed {
-  -webkit-box-shadow: inset 0 3.75px 0 #da2e0b, inset 0 -3.75px 0 #aa2409, inset 0 0 0 3.75px #b32609, inset 0 0 0 10px #c2290a, inset 0 0 0 12px #611405, inset 0 0 0 14.11765px black, inset 0 0 0 16px rgba(247, 133, 110, 0.2), inset 0 0 0 21.81818px #b32609, inset 0 48px 16px #9b2108, inset 0 0 12px 20px #791a06, 0 6px 0 rgba(0, 0, 0, 0.3);
-          box-shadow: inset 0 3.75px 0 #da2e0b, inset 0 -3.75px 0 #aa2409, inset 0 0 0 3.75px #b32609, inset 0 0 0 10px #c2290a, inset 0 0 0 12px #611405, inset 0 0 0 14.11765px black, inset 0 0 0 16px rgba(247, 133, 110, 0.2), inset 0 0 0 21.81818px #b32609, inset 0 48px 16px #9b2108, inset 0 0 12px 20px #791a06, 0 6px 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 3.125px 0 #da2e0b, inset 0 -3.125px 0 #aa2409, inset 0 0 0 3.125px #b32609, inset 0 0 0 8.33333px #c2290a, inset 0 0 0 10px #611405, inset 0 0 0 11.76471px black, inset 0 0 0 13.33333px rgba(247, 133, 110, 0.2), inset 0 0 0 18.18182px #b32609, inset 0 40px 13.33333px #9b2108, inset 0 0 10px 16.66667px #791a06, 0 5px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 3.125px 0 #da2e0b, inset 0 -3.125px 0 #aa2409, inset 0 0 0 3.125px #b32609, inset 0 0 0 8.33333px #c2290a, inset 0 0 0 10px #611405, inset 0 0 0 11.76471px black, inset 0 0 0 13.33333px rgba(247, 133, 110, 0.2), inset 0 0 0 18.18182px #b32609, inset 0 40px 13.33333px #9b2108, inset 0 0 10px 16.66667px #791a06, 0 5px 0 rgba(0, 0, 0, 0.3);
   background-color: #b8270a;
 }
 
 .nav-arcade-button:active:after, .nav-arcade-button.is-pushed:after {
-  bottom: 14px;
+  bottom: 11.66667px;
   border-width: 0;
 }
 
 .side-link {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
 }
 
 .active {
-  color: #f706cf;
+  color: #f706cf !important;
 }
 
-.active:focus, .active:hover, .active:active {
-  color: #c505a5;
+.active:hover, .active:focus {
+  color: #c505a5 !important;
 }
 /*# sourceMappingURL=side-navbar.component.css.map */

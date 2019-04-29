@@ -6,15 +6,21 @@ $push-size: 120px;
 
 .side-nav {
     background-color: $outrun-background-dark;
-    width: 25%;
     height: 100vh;
+    position: fixed;
+    width: 25%;
 }
 
 .side-li {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+}
+
+.logo {
+    margin: 0 auto;
+    padding-left: 0;
 }
 
 .nav-arcade-button {

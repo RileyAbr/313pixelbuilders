@@ -17,3 +17,18 @@ body {
     font-family: 'aldrich';
 }
 
+app-root {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+app-content {
+    width: 100%;
+    display: flex;
+}
+
+app-side-navbar {
+    width: 25%;
+}
+

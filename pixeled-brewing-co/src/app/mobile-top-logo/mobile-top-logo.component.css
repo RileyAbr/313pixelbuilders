@@ -1,0 +1,13 @@
+.mobile-top-logo-link {
+  height: 100%;
+  display: inline-block;
+}
+
+.mobile-top-logo-link:hover, .mobile-top-logo-link:focus {
+  opacity: 0.85;
+}
+
+.mobile-logo {
+  height: 100%;
+}
+/*# sourceMappingURL=mobile-top-logo.component.css.map */

@@ -9,6 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { GamesComponent } from './games/games.component';
 import { EventsComponent } from './events/events.component';
 import { ContactComponent } from './contact/contact.component';
+import { BotNavbarComponent } from './bot-navbar/bot-navbar.component';
+import { MobileTopLogoComponent } from './mobile-top-logo/mobile-top-logo.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { ContactComponent } from './contact/contact.component';
     HomeComponent,
     GamesComponent,
     EventsComponent,
-    ContactComponent
+    ContactComponent,
+    BotNavbarComponent,
+    MobileTopLogoComponent
   ],
   imports: [
     BrowserModule,

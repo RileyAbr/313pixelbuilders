@@ -23,12 +23,10 @@ app-root {
     justify-content: flex-start;
 }
 
-app-content {
-    width: 100%;
-    display: flex;
+@media (max-width: $tablet-break) {
+    app-root {
+        flex-direction: column;
+    }
 }
 
-app-side-navbar {
-    width: 25%;
-}
 

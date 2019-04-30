@@ -65,14 +65,12 @@ app-root {
           justify-content: flex-start;
 }
 
-app-content {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-app-side-navbar {
-  width: 25%;
+@media (max-width: 1150px) {
+  app-root {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

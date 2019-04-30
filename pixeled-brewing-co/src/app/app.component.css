@@ -1,4 +1,4 @@
-.content-wrap {
+app-content {
   width: 80%;
   height: 100vh;
   background: #e895e3;
@@ -10,7 +10,7 @@
 }
 
 @media (max-width: 1150px) {
-  .content-wrap {
+  app-content {
     width: 100%;
     height: 75vh;
   }
@@ -20,7 +20,7 @@ app-side-navbar {
   width: 20%;
 }
 
-app-mobile-top-logo, app-bot-navbar {
+app-bot-navbar {
   display: none;
 }
 

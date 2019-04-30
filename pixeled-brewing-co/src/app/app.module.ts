@@ -11,6 +11,7 @@ import { EventsComponent } from './events/events.component';
 import { ContactComponent } from './contact/contact.component';
 import { BotNavbarComponent } from './bot-navbar/bot-navbar.component';
 import { MobileTopLogoComponent } from './mobile-top-logo/mobile-top-logo.component';
+import { ContentComponent } from './content/content.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MobileTopLogoComponent } from './mobile-top-logo/mobile-top-logo.compon
     EventsComponent,
     ContactComponent,
     BotNavbarComponent,
-    MobileTopLogoComponent
+    MobileTopLogoComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,

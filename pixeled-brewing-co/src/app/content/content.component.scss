@@ -1,0 +1,53 @@
+@import '../../variables';
+
+@font-face {
+    font-family: 'outrun_future'; 
+    src: url('../../assets/fonts/outrun_future/outrun_future-webfont.woff2') format('woff2'),
+         url('../../assets/fonts/outrun_future/outrun_future-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'outrun_future';
+    src: url('../../assets/fonts/outrun_future/outrun_future_bold-webfont.woff2') format('woff2'),
+         url('../../assets/fonts/outrun_future/outrun_future_bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-display: swap;
+}
+
+app-mobile-top-logo, app-bot-navbar {
+    display: none;
+}
+
+@media (max-width: $tablet-break) {
+    app-mobile-top-logo {
+        height: 100px;
+        text-align: right;
+        position: fixed;
+        right: 0;
+        display: block;
+    }
+}
+
+@media (max-width: 650px) {
+    app-mobile-top-logo {
+        height: 70px;
+    }
+}
+
+.content-wrapper {
+    font-size: 2rem; 
+    color: #0f0f0f;
+    padding: 15px;
+    text-shadow: 2px 2px #f0f0f0;
+    font-family: outrun_future;
+}
+
+.content-wrapper > p {
+        font-family: aldrich;
+        color: #f0f0f0;
+        padding: 15px;
+        text-shadow: 2px 2px #0f0f0f
+}

@@ -66,4 +66,11 @@ export class BrewsComponent implements OnInit {
   ngOnInit() {
   }
 
+  public showModal = false;
+  selectedBrew: Brew;
+
+  loadModal(brew: Brew): void {
+    this.selectedBrew = brew;
+  }
+
 }

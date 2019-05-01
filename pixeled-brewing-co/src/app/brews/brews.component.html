@@ -3,27 +3,37 @@
 <div class="brew-wrapper">
     <div class="brew-listing">
         <div class="brew-items" *ngFor='let brew of brews'>
-            <a data-toggle="modal" data-target="#{{brew.volume}}">{{brew.name}}</a>
+            <a (click)="loadModal(brew)">{{brew.name}}</a>
         </div>
     </div>
 </div>
 
-<div *ngFor='let brew of brews' class="modal fade" [attr.id]='brew.volume' tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+<p></p>
+
+<div *ngIf="selectedBrew" class="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <h5 class="modal-title" id="exampleModalLabel">{{selectedBrew.name}}</h5>
+                <button type="button" (click)="loadModal()" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                ...
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <div class="container">
+                    <div class="row">
+                        <div class="col"><strong>Type</strong></div>
+                        <div class="col"><strong>On Tap?</strong></div>
+                        <div class="col"><strong>Volume</strong></div>
+                    </div>
+                    <div class="row">
+                        <div class="col">{{selectedBrew.type}}</div>
+                        <div class="col">{{selectedBrew.tap}}</div>
+                        <div class="col">{{selectedBrew.volume}}</div>
+                    </div>
+                </div>
+                  
             </div>
         </div>
     </div>

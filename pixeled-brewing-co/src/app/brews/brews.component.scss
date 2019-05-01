@@ -36,3 +36,15 @@ h1 {
     width: auto;
   }
 }
+
+.modal {
+    display: block;
+    background-color: rgba(221, 199, 223, 0.363);
+    font-family: aldrich;
+    font-size: 1.1rem;
+}
+
+.close {
+    color: red;
+    font-size: 32px;
+}

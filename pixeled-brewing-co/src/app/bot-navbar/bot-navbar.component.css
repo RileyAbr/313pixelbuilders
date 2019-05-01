@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 .bot-nav {
   background: #0d0221;
   height: 100%;
@@ -63,6 +67,14 @@
   display: inline-block;
 }
 
+.bot-li a {
+  color: #2de2e6;
+}
+
+.bot-li a:hover, .bot-li a:focus {
+  color: #12989b;
+}
+
 .bot-nav-link {
   height: 100%;
   display: -webkit-box;
@@ -122,5 +134,13 @@
   .bot-link {
     font-size: 1.7rem;
   }
+}
+
+.active {
+  color: #f706cf !important;
+}
+
+.active:hover, .active:focus {
+  color: #c505a5 !important;
 }
 /*# sourceMappingURL=bot-navbar.component.css.map */

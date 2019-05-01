@@ -43,7 +43,10 @@
 
 .logo {
   margin: 0 auto;
-  padding: 8px !important;
+  padding: 4px !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .logo:hover, .logo:active, .logo:focus {
@@ -51,7 +54,7 @@
 }
 
 .logo > img {
-  width: 100%;
+  width: 90%;
 }
 
 .nav-arcade-button {

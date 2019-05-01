@@ -1,1 +1,83 @@
-/* No CSS *//*# sourceMappingURL=home.component.css.map */
+.home-header {
+  display: block;
+}
+
+@media (max-width: 1150px) {
+  .home-header {
+    width: 60%;
+  }
+}
+
+@media (max-width: 650px) {
+  .home-header {
+    display: none;
+  }
+}
+
+.home-header-mobile {
+  display: none;
+}
+
+@media (max-width: 650px) {
+  .home-header-mobile {
+    display: block;
+  }
+}
+
+.carousel-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#carouselExampleIndicators {
+  width: 45vw;
+  margin: 25px;
+  border-radius: 4px;
+}
+
+.d-block {
+  border-radius: 4px;
+}
+
+.hours-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hours-table {
+  font-family: 'aldrich';
+  color: #f0f0f0;
+  width: 50%;
+}
+
+.hours-table > .row > [class*="col"] {
+  text-shadow: 2px 2px #0f0f0f;
+}
+
+.hours-table > .row:hover, .hours-table > .row:focus {
+  color: #2de2e6;
+}
+
+.hours-table-header {
+  text-align: center;
+  border-bottom: 2px #f0f0f0 solid;
+  -webkit-box-shadow: 0px 3px #0f0f0f;
+          box-shadow: 0px 3px #0f0f0f;
+}
+
+.hours-table-header:hover, .hours-table-header:focus {
+  border-bottom: 2px #2de2e6 solid;
+}
+
+.hours-table-time {
+  text-align: right;
+}
+/*# sourceMappingURL=home.component.css.map */

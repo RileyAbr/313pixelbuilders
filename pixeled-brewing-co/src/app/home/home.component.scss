@@ -19,3 +19,56 @@
         display: block;
     }
 }
+
+.carousel-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+#carouselExampleIndicators {
+    width: 45vw;
+    margin: 25px;
+    border-radius: 4px;
+}
+
+.d-block {
+    border-radius: 4px;
+}
+
+.hours-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.hours-table {
+    font-family: 'aldrich';
+    color: #f0f0f0;
+    width: 50%;
+}
+
+.hours-table > .row > [class*="col"] {
+    text-shadow: 2px 2px #0f0f0f;
+}
+
+.hours-table > .row:hover,  .hours-table > .row:focus{
+    color: $outrun-neon-blue;
+}
+
+.hours-table-header {
+    text-align: center;
+    border-bottom: 2px #f0f0f0 solid;
+    box-shadow: 0px 3px #0f0f0f;
+}
+
+.hours-table-header:hover, .hours-table-header:focus {
+    border-bottom: 2px $outrun-neon-blue solid;
+}
+
+.hours-table-date {
+
+}
+
+.hours-table-time {
+    text-align: right;
+}
+

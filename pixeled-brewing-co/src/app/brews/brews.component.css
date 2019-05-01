@@ -26,6 +26,11 @@
   width: 50%;
 }
 
+.brew-items a:hover, .brew-items a:focus {
+  color: #2de2e6;
+  cursor: pointer;
+}
+
 h1 {
   font-weight: normal;
   font-size: 3rem;

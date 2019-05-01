@@ -1,3 +1,34 @@
-<p>
-  games works!
-</p>
+<h1>Games</h1>
+
+<!--<p>At pixeled we have several games on site. due to the nature of older machines, they are sometimes unavailable. Should a game be down, we will note that under the game description.</p>
+-->
+<div class="games-wrapper">
+  <div class="games-listing">
+    <div class="games-items" *ngFor='let games of games'>
+      <a (click)="loadModal(games)">{{games.name}}</a>
+    </div>
+  </div>
+</div>
+
+<p></p>
+
+<div *ngIf="selectedGame" class="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">{{selectedGame.name}}</h5>
+                <button type="button" (click)="loadModal()" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div><strong>Name</strong> {{selectedGame.name}}, <strong>Running:</strong> {{selectedGame.working}} </div>
+                    <div>{{selectedGame.descr}}</div>
+                </div>
+                  
+            </div>
+        </div>
+    </div>
+</div>

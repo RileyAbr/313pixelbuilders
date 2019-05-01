@@ -34,17 +34,10 @@ app-mobile-top-logo, app-bot-navbar {
 }
 
 .content-wrapper {
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #0f0f0f;
   padding: 15px;
   text-shadow: 2px 2px #f0f0f0;
   font-family: outrun_future;
-}
-
-.content-wrapper > p {
-  font-family: aldrich;
-  color: #f0f0f0;
-  padding: 15px;
-  text-shadow: 2px 2px #0f0f0f;
 }
 /*# sourceMappingURL=content.component.css.map */

@@ -49,7 +49,7 @@ export class GamesComponent implements OnInit {
   public showModal = false;
   selectedGame: Game;
 
-  LoadModal(game: Game): void {
+  loadModal(game: Game): void {
     this.selectedGame = game;
   }
 

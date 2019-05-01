@@ -1,7 +1,7 @@
 <h1>Games</h1>
 
-<p>At pixeled we have several games on site. due to the nature of older machines, they are sometimes unavailable. Should a game be down, we will note that under the game description.</p>
-
+<!--<p>At pixeled we have several games on site. due to the nature of older machines, they are sometimes unavailable. Should a game be down, we will note that under the game description.</p>
+-->
 <div class="games-wrapper">
   <div class="games-listing">
     <div class="games-items" *ngFor='let games of games'>
@@ -24,16 +24,8 @@
             </div>
             <div class="modal-body">
                 <div class="container">
-                    <div class="row">
-                        <div class="col"><strong>Name</strong></div>
-                        <div class="col"><strong>On Tap?</strong></div>
-                        <div class="col"><strong>Volume</strong></div>
-                    </div>
-                    <div class="row">
-                        <div class="col">{{selectedGame.name}}</div>
-                        <div class="col">{{selectedGame.descr}}</div>
-                        <div class="col">{{selectedGame.working}}</div>
-                    </div>
+                    <div><strong>Name</strong> {{selectedGame.name}}, <strong>Running:</strong> {{selectedGame.working}} </div>
+                    <div>{{selectedGame.descr}}</div>
                 </div>
                   
             </div>

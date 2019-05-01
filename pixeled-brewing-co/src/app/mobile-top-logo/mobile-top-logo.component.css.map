@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,qBAAqB,CAAC;EAClB,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,YAAY;CACxB;;AAED,AAAA,qBAAqB,AAAA,MAAM,EAAE,qBAAqB,AAAA,MAAM,CAAC;EACrD,OAAO,EAAE,IAAI;CAChB;;AAED,AAAA,YAAY,CAAC;EACT,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "mobile-top-logo.component.scss"
+    ],
+    "names": [],
+    "file": "mobile-top-logo.component.css"
+}

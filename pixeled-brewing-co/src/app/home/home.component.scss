@@ -1,0 +1,21 @@
+@import "../../variables";
+
+.home-header {
+    display: block;
+
+    @media (max-width: $tablet-break) {
+        width: 60%;
+    }
+
+    @media (max-width: $mobile-break) {
+    display: none;
+    }
+}
+
+.home-header-mobile {
+    display: none;
+
+    @media (max-width: $mobile-break) {
+        display: block;
+    }
+}

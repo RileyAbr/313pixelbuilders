@@ -1,0 +1,55 @@
+app-content {
+  width: 80%;
+  height: 100vh;
+  background: #e895e3;
+  background-image: url("../assets/img/neon_grid.png");
+  background-position: center;
+  background-size: cover;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+@media (max-width: 1150px) {
+  app-content {
+    width: 100%;
+    height: 75vh;
+  }
+}
+
+app-side-navbar {
+  width: 20%;
+}
+
+app-bot-navbar {
+  display: none;
+}
+
+@media (max-width: 1150px) {
+  app-root {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  app-side-navbar {
+    display: none;
+  }
+  app-mobile-top-logo {
+    height: 100px;
+    text-align: right;
+    position: fixed;
+    right: 0;
+    display: block;
+  }
+  app-bot-navbar {
+    display: block;
+    height: 25vh;
+  }
+}
+
+@media (max-width: 650px) {
+  app-mobile-top-logo {
+    height: 70px;
+  }
+}
+/*# sourceMappingURL=app.component.css.map */

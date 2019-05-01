@@ -1,0 +1,76 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'aldrich';
+  src: url("assets/fonts/aldrich/aldrich-regular-webfont.woff2") format("woff2"), url("assets/fonts/aldrich/aldrich-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'outrun_future';
+  src: url("assets/fonts/outrun_future/outrun_future-webfont.woff2") format("woff2"), url("assets/fonts/outrun_future/outrun_future-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'outrun_future';
+  src: url("assets/fonts/outrun_future/outrun_future_bold-webfont.woff2") format("woff2"), url("assets/fonts/outrun_future/outrun_future_bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'outrun_future';
+  src: url("assets/fonts/outrun_future/outrun_future_bold_italic-webfont.woff2") format("woff2"), url("assets/fonts/outrun_future/outrun_future_bold_italic-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'outrun_future';
+  src: url("assets/fonts/outrun_future/outrun_future_bold_italic-webfont.woff2") format("woff2"), url("assets/fonts/outrun_future/outrun_future_bold_italic-webfont.woff") format("woff");
+  font-style: italic;
+  font-display: swap;
+}
+
+* {
+  border: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'aldrich';
+}
+
+app-root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+@media (max-width: 1150px) {
+  app-root {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,5 +1,9 @@
 @import "../../variables";
 
+a {
+  text-decoration: none;
+}
+
 .bot-nav {
   background: $outrun-background-dark;
   height: 100%;
@@ -76,6 +80,14 @@
   display: inline-block;
 }
 
+.bot-li a {
+  color: $outrun-neon-blue;
+}
+
+.bot-li a:hover, .bot-li a:focus {
+  color: darken($outrun-neon-blue, 20%);
+}
+
 .bot-nav-link {
   height: 100%;
   display: flex;
@@ -149,4 +161,12 @@
     .bot-link {
     font-size: 1.7rem;
     }
+}
+
+.active {
+  color: $outrun-neon-pink !important;
+}
+
+.active:hover, .active:focus{
+  color: darken($outrun-neon-pink, 10%) !important;
 }

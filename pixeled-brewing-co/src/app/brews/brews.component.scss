@@ -19,6 +19,11 @@
   width: 50%;
 }
 
+.brew-items a:hover, .brew-items a:focus {
+  color: $outrun-neon-blue;
+  cursor: pointer;
+}
+
 h1 {
   font-weight: normal;
   font-size: 3rem;

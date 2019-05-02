@@ -1,3 +1,32 @@
-<p>
-  events works!
-</p>
+<h1>Events:</h1>
+
+<div class="events-wrapper">
+  <div class="events-listing">
+    <div class="events-items" *ngFor='let event of event'>
+      <a (click)="loadModal(event)">{{event.name}} </a>
+    </div>
+  </div>
+</div>
+
+<p></p>
+
+<div *ngIf="selectedEvent" class="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">{{selectedEvent.name}}</h5>
+                <button type="button" (click)="loadModal()" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div><strong>Event Name:</strong> {{selectedEvent.name}}, <strong>Date:</strong> {{selectedEvent.date}} </div>
+                    <div>{{selectedEvent.descr}}</div>
+                </div>
+                  
+            </div>
+        </div>
+    </div>
+</div>

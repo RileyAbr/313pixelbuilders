@@ -1,1 +1,58 @@
-/* No CSS *//*# sourceMappingURL=events.component.css.map */
+.events-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .events-listing {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    width: 50vw;
+  }
+  
+  .events-items {
+    font-family: aldrich;
+    color: #f0f0f0;
+    padding: 15px;
+    text-shadow: 2px 2px #0f0f0f;
+    width: 50%;
+  }
+  
+  h1 {
+    font-weight: normal;
+    font-size: 3rem;
+    padding-left: 10px;
+  }
+  
+  @media (max-width: 1150px) {
+    .events-items {
+      width: auto;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    .events-listing {
+      width: auto;
+    }
+  }
+  
+  .modal {
+    display: block;
+    background-color: rgba(221, 199, 223, 0.363);
+    font-family: aldrich;
+    font-size: 1.1rem;
+  }
+  
+  .close {
+    color: red;
+    font-size: 32px;
+  }
+/*# sourceMappingURL=events.component.css.map */

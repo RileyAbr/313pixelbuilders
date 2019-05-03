@@ -1,1 +1,190 @@
-/* No CSS *//*# sourceMappingURL=contact.component.css.map */
+.contact-form {
+  font-family: aldrich;
+  color: #f0f0f0;
+  text-shadow: 2px 2px #0f0f0f;
+  width: 70%;
+  margin: 30px auto 0;
+}
+
+@media (max-width: 1150px) {
+  .contact-form {
+    width: 95%;
+  }
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 3rem;
+  padding-left: 10px;
+}
+
+.button-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact-submit {
+  height: 55px;
+  width: 15%;
+  border-radius: 4px;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #2de2e6;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 162, 255, 0.25);
+          box-shadow: 0 0 0 0.2rem rgba(0, 162, 255, 0.25);
+}
+
+.nav-arcade-button {
+  color: #f0f0f0;
+  text-shadow: 2px 2px #0f0f0f;
+  font-size: 1.5rem;
+  position: relative;
+  display: inline-block;
+  width: 9vw;
+  height: 9vw;
+  border: 0;
+  margin: 1em;
+  outline: none;
+  background-color: #0dac0d;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: -webkit-box-shadow 200ms;
+  transition: -webkit-box-shadow 200ms;
+  transition: box-shadow 200ms;
+  transition: box-shadow 200ms, -webkit-box-shadow 200ms;
+  -webkit-box-shadow: inset 0 0.28125vw 0 #0fc40f, inset 0 -0.28125vw 0 #0b940b, inset 0 0 0 0.28125vw #0c9e0c, inset 0 0 0 0.75vw #0dac0d, inset 0 0 0 0.9vw #064d06, inset 0 0 0 0.97826vw black, inset 0 0 0 1.2vw rgba(95, 243, 95, 0.7), inset 0 0 0 1.63636vw #0dac0d, inset 0 3.6vw 1.2vw #0b940b, inset 0 0 0.9vw 1.5vw #097d09, 0 0.45vw 0 rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0.28125vw 0 #0fc40f, inset 0 -0.28125vw 0 #0b940b, inset 0 0 0 0.28125vw #0c9e0c, inset 0 0 0 0.75vw #0dac0d, inset 0 0 0 0.9vw #064d06, inset 0 0 0 0.97826vw black, inset 0 0 0 1.2vw rgba(95, 243, 95, 0.7), inset 0 0 0 1.63636vw #0dac0d, inset 0 3.6vw 1.2vw #0b940b, inset 0 0 0.9vw 1.5vw #097d09, 0 0.45vw 0 rgba(0, 0, 0, 0.3);
+}
+
+.nav-arcade-button:after {
+  content: "";
+  position: absolute;
+  bottom: 0.45vw;
+  left: 0.9vw;
+  display: block;
+  width: 7.2vw;
+  height: 7.2vw;
+  border: 0.6vw solid rgba(0, 0, 0, 0.3);
+  border-width: 0 0 0.6vw;
+  border-radius: 50%;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+
+.nav-arcade-button:active, .nav-arcade-button.is-pushed {
+  -webkit-box-shadow: inset 0 0.28125vw 0 #0fc40f, inset 0 -0.28125vw 0 #0b940b, inset 0 0 0 0.28125vw #0c9e0c, inset 0 0 0 0.75vw #0dac0d, inset 0 0 0 0.9vw #064d06, inset 0 0 0 1.05882vw black, inset 0 0 0 1.2vw rgba(95, 243, 95, 0.2), inset 0 0 0 1.63636vw #0c9e0c, inset 0 3.6vw 1.2vw #0a860a, inset 0 0 0.9vw 1.5vw #086508, 0 0.45vw 0 rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0.28125vw 0 #0fc40f, inset 0 -0.28125vw 0 #0b940b, inset 0 0 0 0.28125vw #0c9e0c, inset 0 0 0 0.75vw #0dac0d, inset 0 0 0 0.9vw #064d06, inset 0 0 0 1.05882vw black, inset 0 0 0 1.2vw rgba(95, 243, 95, 0.2), inset 0 0 0 1.63636vw #0c9e0c, inset 0 3.6vw 1.2vw #0a860a, inset 0 0 0.9vw 1.5vw #086508, 0 0.45vw 0 rgba(0, 0, 0, 0.3);
+  background-color: #0ca30c;
+}
+
+.nav-arcade-button:active:after, .nav-arcade-button.is-pushed:after {
+  bottom: 1.05vw;
+  border-width: 0;
+}
+
+@media (max-width: 1150px) {
+  .nav-arcade-button {
+    color: #f0f0f0;
+    text-shadow: 2px 2px #0f0f0f;
+    font-size: 1.3rem;
+    position: relative;
+    display: inline-block;
+    width: 16vw;
+    height: 16vw;
+    border: 0;
+    margin: 1em;
+    outline: none;
+    background-color: #0dac0d;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transition: -webkit-box-shadow 200ms;
+    transition: -webkit-box-shadow 200ms;
+    transition: box-shadow 200ms;
+    transition: box-shadow 200ms, -webkit-box-shadow 200ms;
+    -webkit-box-shadow: inset 0 0.5vw 0 #0fc40f, inset 0 -0.5vw 0 #0b940b, inset 0 0 0 0.5vw #0c9e0c, inset 0 0 0 1.33333vw #0dac0d, inset 0 0 0 1.6vw #064d06, inset 0 0 0 1.73913vw black, inset 0 0 0 2.13333vw rgba(95, 243, 95, 0.7), inset 0 0 0 2.90909vw #0dac0d, inset 0 6.4vw 2.13333vw #0b940b, inset 0 0 1.6vw 2.66667vw #097d09, 0 0.8vw 0 rgba(0, 0, 0, 0.3);
+            box-shadow: inset 0 0.5vw 0 #0fc40f, inset 0 -0.5vw 0 #0b940b, inset 0 0 0 0.5vw #0c9e0c, inset 0 0 0 1.33333vw #0dac0d, inset 0 0 0 1.6vw #064d06, inset 0 0 0 1.73913vw black, inset 0 0 0 2.13333vw rgba(95, 243, 95, 0.7), inset 0 0 0 2.90909vw #0dac0d, inset 0 6.4vw 2.13333vw #0b940b, inset 0 0 1.6vw 2.66667vw #097d09, 0 0.8vw 0 rgba(0, 0, 0, 0.3);
+  }
+  .nav-arcade-button:after {
+    content: "";
+    position: absolute;
+    bottom: 0.8vw;
+    left: 1.6vw;
+    display: block;
+    width: 12.8vw;
+    height: 12.8vw;
+    border: 1.06667vw solid rgba(0, 0, 0, 0.3);
+    border-width: 0 0 1.06667vw;
+    border-radius: 50%;
+    -webkit-transition-duration: 200ms;
+            transition-duration: 200ms;
+  }
+  .nav-arcade-button:active, .nav-arcade-button.is-pushed {
+    -webkit-box-shadow: inset 0 0.5vw 0 #0fc40f, inset 0 -0.5vw 0 #0b940b, inset 0 0 0 0.5vw #0c9e0c, inset 0 0 0 1.33333vw #0dac0d, inset 0 0 0 1.6vw #064d06, inset 0 0 0 1.88235vw black, inset 0 0 0 2.13333vw rgba(95, 243, 95, 0.2), inset 0 0 0 2.90909vw #0c9e0c, inset 0 6.4vw 2.13333vw #0a860a, inset 0 0 1.6vw 2.66667vw #086508, 0 0.8vw 0 rgba(0, 0, 0, 0.3);
+            box-shadow: inset 0 0.5vw 0 #0fc40f, inset 0 -0.5vw 0 #0b940b, inset 0 0 0 0.5vw #0c9e0c, inset 0 0 0 1.33333vw #0dac0d, inset 0 0 0 1.6vw #064d06, inset 0 0 0 1.88235vw black, inset 0 0 0 2.13333vw rgba(95, 243, 95, 0.2), inset 0 0 0 2.90909vw #0c9e0c, inset 0 6.4vw 2.13333vw #0a860a, inset 0 0 1.6vw 2.66667vw #086508, 0 0.8vw 0 rgba(0, 0, 0, 0.3);
+    background-color: #0ca30c;
+  }
+  .nav-arcade-button:active:after, .nav-arcade-button.is-pushed:after {
+    bottom: 1.86667vw;
+    border-width: 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .nav-arcade-button {
+    color: #f0f0f0;
+    text-shadow: 2px 2px #0f0f0f;
+    font-size: 1.2rem;
+    position: relative;
+    display: inline-block;
+    width: 30vw;
+    height: 30vw;
+    border: 0;
+    margin: 1em;
+    outline: none;
+    background-color: #0dac0d;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transition: -webkit-box-shadow 200ms;
+    transition: -webkit-box-shadow 200ms;
+    transition: box-shadow 200ms;
+    transition: box-shadow 200ms, -webkit-box-shadow 200ms;
+    -webkit-box-shadow: inset 0 0.9375vw 0 #0fc40f, inset 0 -0.9375vw 0 #0b940b, inset 0 0 0 0.9375vw #0c9e0c, inset 0 0 0 2.5vw #0dac0d, inset 0 0 0 3vw #064d06, inset 0 0 0 3.26087vw black, inset 0 0 0 4vw rgba(95, 243, 95, 0.7), inset 0 0 0 5.45455vw #0dac0d, inset 0 12vw 4vw #0b940b, inset 0 0 3vw 5vw #097d09, 0 1.5vw 0 rgba(0, 0, 0, 0.3);
+            box-shadow: inset 0 0.9375vw 0 #0fc40f, inset 0 -0.9375vw 0 #0b940b, inset 0 0 0 0.9375vw #0c9e0c, inset 0 0 0 2.5vw #0dac0d, inset 0 0 0 3vw #064d06, inset 0 0 0 3.26087vw black, inset 0 0 0 4vw rgba(95, 243, 95, 0.7), inset 0 0 0 5.45455vw #0dac0d, inset 0 12vw 4vw #0b940b, inset 0 0 3vw 5vw #097d09, 0 1.5vw 0 rgba(0, 0, 0, 0.3);
+  }
+  .nav-arcade-button:after {
+    content: "";
+    position: absolute;
+    bottom: 1.5vw;
+    left: 3vw;
+    display: block;
+    width: 24vw;
+    height: 24vw;
+    border: 2vw solid rgba(0, 0, 0, 0.3);
+    border-width: 0 0 2vw;
+    border-radius: 50%;
+    -webkit-transition-duration: 200ms;
+            transition-duration: 200ms;
+  }
+  .nav-arcade-button:active, .nav-arcade-button.is-pushed {
+    -webkit-box-shadow: inset 0 0.9375vw 0 #0fc40f, inset 0 -0.9375vw 0 #0b940b, inset 0 0 0 0.9375vw #0c9e0c, inset 0 0 0 2.5vw #0dac0d, inset 0 0 0 3vw #064d06, inset 0 0 0 3.52941vw black, inset 0 0 0 4vw rgba(95, 243, 95, 0.2), inset 0 0 0 5.45455vw #0c9e0c, inset 0 12vw 4vw #0a860a, inset 0 0 3vw 5vw #086508, 0 1.5vw 0 rgba(0, 0, 0, 0.3);
+            box-shadow: inset 0 0.9375vw 0 #0fc40f, inset 0 -0.9375vw 0 #0b940b, inset 0 0 0 0.9375vw #0c9e0c, inset 0 0 0 2.5vw #0dac0d, inset 0 0 0 3vw #064d06, inset 0 0 0 3.52941vw black, inset 0 0 0 4vw rgba(95, 243, 95, 0.2), inset 0 0 0 5.45455vw #0c9e0c, inset 0 12vw 4vw #0a860a, inset 0 0 3vw 5vw #086508, 0 1.5vw 0 rgba(0, 0, 0, 0.3);
+    background-color: #0ca30c;
+  }
+  .nav-arcade-button:active:after, .nav-arcade-button.is-pushed:after {
+    bottom: 3.5vw;
+    border-width: 0;
+  }
+}
+/*# sourceMappingURL=contact.component.css.map */

@@ -1,74 +1,92 @@
 @import "../../variables";
 
 .home-header {
-    display: block;
+  display: block;
 
-    @media (max-width: $tablet-break) {
-        width: 60%;
-    }
+  @media (max-width: $tablet-break) {
+    width: 60%;
+  }
 
-    @media (max-width: $mobile-break) {
+  @media (max-width: $mobile-break) {
     display: none;
-    }
+  }
 }
 
 .home-header-mobile {
-    display: none;
+  display: none;
 
-    @media (max-width: $mobile-break) {
-        display: block;
-    }
+  @media (max-width: $mobile-break) {
+    display: block;
+  }
 }
 
 .carousel-wrap {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-#carouselExampleIndicators {
-    width: 45vw;
-    margin: 25px;
-    border-radius: 4px;
+#homePhotoCarousel {
+  width: 45vw;
+  margin: 25px;
+  border-radius: 4px;
+
+  @media (max-width: $tablet-break) {
+    width: 78vw;
+  }
+
+  @media (max-width: $mobile-break) {
+    margin: 10px;
+    width: 85vw;
+  }
 }
 
 .d-block {
-    border-radius: 4px;
+  border-radius: 4px;
 }
 
 .hours-wrapper {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+
+  @media (max-width: $tablet-break) {
+    font-size: 1.8rem;
+  }
 }
 
 .hours-table {
-    font-family: 'aldrich';
-    color: #f0f0f0;
-    width: 50%;
+  font-family: "aldrich";
+  color: #f0f0f0;
+  width: 50%;
+
+  @media (max-width: $tablet-break) {
+    width: 95%;
+  }
 }
 
 .hours-table > .row > [class*="col"] {
-    text-shadow: 2px 2px #0f0f0f;
+  text-shadow: 2px 2px #0f0f0f;
 }
 
-.hours-table > .row:hover,  .hours-table > .row:focus{
-    color: $outrun-neon-blue;
+.hours-table > .row:hover,
+.hours-table > .row:focus {
+  color: $outrun-neon-blue;
+  cursor: default;
 }
 
 .hours-table-header {
-    text-align: center;
-    border-bottom: 2px #f0f0f0 solid;
-    box-shadow: 0px 3px #0f0f0f;
+  text-align: center;
+  border-bottom: 2px #f0f0f0 solid;
+  box-shadow: 0px 3px #0f0f0f;
 }
 
-.hours-table-header:hover, .hours-table-header:focus {
-    border-bottom: 2px $outrun-neon-blue solid;
+.hours-table-header:hover,
+.hours-table-header:focus {
+  border-bottom: 2px $outrun-neon-blue solid;
 }
 
 .hours-table-date {
-
 }
 
 .hours-table-time {
-    text-align: right;
+  text-align: right;
 }
-

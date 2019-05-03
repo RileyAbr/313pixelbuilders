@@ -33,10 +33,23 @@
           justify-content: center;
 }
 
-#carouselExampleIndicators {
+#homePhotoCarousel {
   width: 45vw;
   margin: 25px;
   border-radius: 4px;
+}
+
+@media (max-width: 1150px) {
+  #homePhotoCarousel {
+    width: 78vw;
+  }
+}
+
+@media (max-width: 650px) {
+  #homePhotoCarousel {
+    margin: 10px;
+    width: 85vw;
+  }
 }
 
 .d-block {
@@ -52,18 +65,32 @@
           justify-content: center;
 }
 
+@media (max-width: 1150px) {
+  .hours-wrapper {
+    font-size: 1.8rem;
+  }
+}
+
 .hours-table {
-  font-family: 'aldrich';
+  font-family: "aldrich";
   color: #f0f0f0;
   width: 50%;
+}
+
+@media (max-width: 1150px) {
+  .hours-table {
+    width: 95%;
+  }
 }
 
 .hours-table > .row > [class*="col"] {
   text-shadow: 2px 2px #0f0f0f;
 }
 
-.hours-table > .row:hover, .hours-table > .row:focus {
+.hours-table > .row:hover,
+.hours-table > .row:focus {
   color: #2de2e6;
+  cursor: default;
 }
 
 .hours-table-header {
@@ -73,7 +100,8 @@
           box-shadow: 0px 3px #0f0f0f;
 }
 
-.hours-table-header:hover, .hours-table-header:focus {
+.hours-table-header:hover,
+.hours-table-header:focus {
   border-bottom: 2px #2de2e6 solid;
 }
 

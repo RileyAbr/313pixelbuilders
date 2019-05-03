@@ -1,22 +1,27 @@
 @import "../../variables";
 
-.brew-wrapper {
+.games-wrapper {
   display: flex;
   justify-content: center;
 }
 
-.brew-listing {
+.games-listing {
   display: flex;
   flex-flow: row wrap;
   width: 50vw;
 }
 
-.brew-items {
+.games-items {
   font-family: aldrich;
   color: #f0f0f0;
   padding: 15px;
   text-shadow: 2px 2px #0f0f0f;
   width: 50%;
+}
+
+.games-items a:hover, .games-items a:focus {
+  color: $outrun-neon-blue;
+  cursor: pointer;
 }
 
 h1 {
@@ -26,13 +31,13 @@ h1 {
 }
 
 @media (max-width: $tablet-break) {
-  .brew-items {
+  .games-items {
     width: auto;
   }
 }
 
 @media (max-width: $mobile-break) {
-  .brew-listing {
+  .games-listing {
     width: auto;
   }
 }

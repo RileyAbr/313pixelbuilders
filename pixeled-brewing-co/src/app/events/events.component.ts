@@ -12,9 +12,17 @@ export class EventsComponent implements OnInit {
       date : "Every Monday",
       privacy : false}
   ];
+  //Temporary database placeholder for texting ui/calls to pool of events.
   constructor() { }
 
   ngOnInit() {
+  }
+
+  public showModal = false;
+  selectedEvent: Event;
+
+  loadModal(event: Event): void {
+    this.selectedEvent = event;
   }
 
 }

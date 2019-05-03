@@ -120,6 +120,16 @@
     }
 }
 
+.side-link-large-text {
+    font-family: 'Press Start 2P', cursive;//new 8-bit style font
+//    font-size: 2.5rem;
+    font-size: 1.8rem;
+    @media (max-width: 1500px) {
+        font-size: 2.0rem;
+    }
+
+}
+
 .active {
     color: $outrun-neon-pink !important;
 }

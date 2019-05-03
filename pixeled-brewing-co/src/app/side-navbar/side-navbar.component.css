@@ -114,6 +114,17 @@
   }
 }
 
+.side-link-large-text {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.8rem;
+}
+
+@media (max-width: 1500px) {
+  .side-link-large-text {
+    font-size: 2.0rem;
+  }
+}
+
 .active {
   color: #f706cf !important;
 }

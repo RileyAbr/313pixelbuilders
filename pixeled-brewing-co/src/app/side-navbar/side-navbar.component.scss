@@ -1,4 +1,5 @@
 @import '../../variables';
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 
 .side-nav {
     background-color: $outrun-background-dark;
@@ -111,8 +112,9 @@
 }
 
 .side-link {
-    font-size: 2.5rem;
-
+    font-family: 'Press Start 2P', cursive;//new 8-bit style font
+//    font-size: 2.5rem;
+    font-size: 2.0rem;
     @media (max-width: 1500px) {
         font-size: 2.0rem;
     }

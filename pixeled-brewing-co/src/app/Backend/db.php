@@ -1,4 +1,12 @@
 <?php
-$conn = new mysqli('remotemysql.com', '3306', 'TXp6QFPDw0', 'TXp6QFPDw0', 'Dw03PVexDb');
-mysql_select_db('TXp6QFPDw0',$link) or die ("could not open db".mysql_error());
+$servername = "localhost";
+$username = "zachary.kunz";
+$password = "Low9mor@";
+$dbname = "pixeled_brewing";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 ?>

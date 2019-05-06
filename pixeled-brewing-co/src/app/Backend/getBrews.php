@@ -1,5 +1,5 @@
 <?php
-include 'pixelDatabase.php';
+include 'db.php';
 $result = $db->query('SELECT * FROM BEER');
 //Initialize array variable
 $dbdata = array();

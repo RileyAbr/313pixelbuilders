@@ -49,12 +49,12 @@
   justify-content: center;
 
   @media (max-width: $tablet-break) {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 }
 
 .hours-table {
-  font-family: "aldrich";
+  font-family: 'Press Start 2P', aldrich, Arial, Helvetica, sans-serif;
   color: #f0f0f0;
   width: 50%;
 

@@ -17,6 +17,14 @@ app-mobile-top-logo, app-bot-navbar {
   display: none;
 }
 
+.content-wrapper {
+  font-size: 2rem;
+  color: #0f0f0f;
+  padding: 15px;
+  text-shadow: 2px 2px #f0f0f0;
+  font-family: outrun_future;
+}
+
 @media (max-width: 1150px) {
   app-mobile-top-logo {
     height: 100px;
@@ -25,19 +33,17 @@ app-mobile-top-logo, app-bot-navbar {
     right: 0;
     display: block;
   }
+  .content-wrapper {
+    font-size: 1.8rem;
+  }
 }
 
 @media (max-width: 650px) {
   app-mobile-top-logo {
     height: 70px;
   }
-}
-
-.content-wrapper {
-  font-size: 2.2rem;
-  color: #0f0f0f;
-  padding: 15px;
-  text-shadow: 2px 2px #f0f0f0;
-  font-family: outrun_future;
+  .content-wrapper {
+    font-size: 1.5rem;
+  }
 }
 /*# sourceMappingURL=content.component.css.map */

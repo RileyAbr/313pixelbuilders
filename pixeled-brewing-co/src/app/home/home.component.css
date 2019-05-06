@@ -67,12 +67,12 @@
 
 @media (max-width: 1150px) {
   .hours-wrapper {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 }
 
 .hours-table {
-  font-family: "aldrich";
+  font-family: 'Press Start 2P', aldrich, Arial, Helvetica, sans-serif;
   color: #f0f0f0;
   width: 50%;
 }

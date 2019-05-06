@@ -1,5 +1,4 @@
 @import "../../variables";
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 
 .games-wrapper {
   display: flex;
@@ -13,13 +12,9 @@
 }
 
 .games-items {
-  /***/
-  font-family: 'Press Start 2P', cursive;
-  /*** /
-  font-family: aldrich;
-  /***/
+  font-family: 'Press Start 2P', aldrich, Arial, Helvetica, sans-serif;
   color: #f0f0f0;
-  padding: 15px;
+  padding: 19px;
   text-shadow: 2px 2px #0f0f0f;
   width: 50%;
 }
@@ -38,6 +33,10 @@ h1 {
 @media (max-width: $tablet-break) {
   .games-items {
     width: auto;
+  }
+
+  .games-listing {
+    width: 68vw;
   }
 }
 

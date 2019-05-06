@@ -9,7 +9,7 @@ $push-color: rgb(13, 172, 13);
 }
 
 .contact-form {
-  font-family: aldrich;
+  font-family: 'Press Start 2P', aldrich, Arial, Helvetica, sans-serif;
   color: #f0f0f0;
   text-shadow: 2px 2px #0f0f0f;
   width: 70%;
@@ -52,7 +52,7 @@ h1 {
 .nav-arcade-button {
   color: #f0f0f0;
   text-shadow: 2px 2px #0f0f0f;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   position: relative;
   display: inline-block;
   width: $push-size-desktop;
@@ -116,7 +116,7 @@ h1 {
   .nav-arcade-button {
     color: #f0f0f0;
     text-shadow: 2px 2px #0f0f0f;
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     position: relative;
     display: inline-block;
     width: $push-size-tablet;
@@ -181,7 +181,7 @@ h1 {
   .nav-arcade-button {
     color: #f0f0f0;
     text-shadow: 2px 2px #0f0f0f;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     position: relative;
     display: inline-block;
     width: $push-size-mobile;

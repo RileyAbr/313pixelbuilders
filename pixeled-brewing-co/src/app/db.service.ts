@@ -16,12 +16,12 @@ export class DbService {
   constructor(private http: HttpClient) { }
 
   getBrews(): Observable<Brew[]> {
-    return this.http.get<Brew[]>(this.baseUrl + 'getBrew.php');
+    return this.http.get<Brew[]>(this.baseUrl + 'getBrews.php');
   }
   getEvents(): Observable<Event[]> {
-    return this.http.get<Event[]>(this.baseUrl + 'getEvent.php');
+    return this.http.get<Event[]>(this.baseUrl + 'getEvents.php');
 }
   getGames(): Observable<Game[]> {
-    return this.http.get<Game[]>(this.baseUrl + 'getGame.php'); 
+    return this.http.get<Game[]>(this.baseUrl + 'getGames.php'); 
     } 
 }

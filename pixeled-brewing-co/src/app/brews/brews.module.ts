@@ -1,6 +1,6 @@
 export class Brew {
     name : string;
     type : string;
-    tap : boolean;
+    tap : number;
     volume : number;
 }

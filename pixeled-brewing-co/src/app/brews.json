@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Galactic Implication",
+        "type": "New England IPA",
+        "tap": "1",
+        "volume": "5"
+    },
+    {
+        "name": "Jon Luck Pickard",
+        "type": "English Strong Bitter",
+        "tap": "1",
+        "volume": "5"
+    },
+    {
+        "name": "I am Brut",
+        "type": "Brut IPA",
+        "tap": "1",
+        "volume": "6"
+    },
+    {
+        "name": "UpgrayeDD",
+        "type": "Double IPA",
+        "tap": "1",
+        "volume": "7"
+    },
+    {
+        "name": "Jumpman",
+        "type": "Brown Ale",
+        "tap": "1",
+        "volume": "5"
+    },
+    {
+        "name": "Tecmo Super Beer",
+        "type": "Blonde Ale",
+        "tap": "1",
+        "volume": "6"
+    },
+    {
+        "name": "Coin-Op",
+        "type": "Creme Ale",
+        "tap": "1",
+        "volume": "6"
+    },
+    {
+        "name": "HDS Stout",
+        "type": "Irish Stout",
+        "tap": "1",
+        "volume": "4"
+    }
+]

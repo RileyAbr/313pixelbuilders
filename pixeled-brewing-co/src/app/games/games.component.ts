@@ -18,7 +18,7 @@ export class GamesComponent implements OnInit {
   games: Game[];
   // temporary solution while waiting on proper database.
   constructor() {
-     this.games = [(<any> data)];
+     this.games = [(<any> data).database];
     }
 
   ngOnInit() {

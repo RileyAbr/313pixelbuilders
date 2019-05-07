@@ -3,6 +3,6 @@
         "name": "Killer Queen Monday's",
         "description": "Play the Arcade game Killer Queen for free every Monday",
         "startDate": "Every Monday",
-        "private": "0"
+        "private": false
     }
 ]

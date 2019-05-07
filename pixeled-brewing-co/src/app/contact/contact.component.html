@@ -1,7 +1,7 @@
 <h1>Cont<span style="margin-left: -10px;">a</span>ct</h1>
 
 <div class="contact-wrapper"></div>
-<form class="contact-form">
+<form class="contact-form" method="post" action="./send_email.php">
   <div class="form-group">
     <label for="pixeledContactName">Name</label>
     <input type="text" class="form-control form-control-lg" id="pixeledContactName" placeholder="Name">
@@ -17,7 +17,7 @@
   </div>
   <div class="button-wrapper">
     <!-- <button type="submit" class="btn btn-primary contact-submit">Submit</button> -->
-    <button type="submit" class="nav-arcade-button">Submit</button>
+    <button type="submit" class="nav-arcade-button"> <a href="mailto:pixeled.noreply@gmail.com">Submit</a></button>
     
   </div>
 </form>

@@ -9,7 +9,7 @@ import gameData from '../games.json';
   styleUrls: ['./games.component.scss']
 })
 export class GamesComponent implements OnInit {
-  
+
   public showModal = false;
   selectedGame: Game;
 

@@ -9,4 +9,6 @@ This repository is the base of operations for the overhaul of the Pixeled Brewin
   <li>Zachary Kunz - Database Administration</li>
 </ul>
 
+Live site at: <a href="https://pixelarcade313.web.app/">https://pixelarcade313.web.app/</a>
+
 Created for the NDSU CSCI 313: Advanced Software Development course

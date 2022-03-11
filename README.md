@@ -5,7 +5,7 @@ This repository is the base of operations for the overhaul of the Pixeled Brewin
 
 <ul>
   <li>Riley Abrahamson - Front-end and Design</li> 
-  <li>Edward Powell - Back-end Business Logic</li>
+  <li>Danica Powell - Back-end Business Logic</li>
   <li>Zachary Kunz - Database Administration</li>
 </ul>
 
